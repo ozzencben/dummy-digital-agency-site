@@ -1,0 +1,21 @@
+.app-container {
+  width: 100%;
+}
+
+.navbar {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 9999;
+}
+
+.switchers {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.button-container {
+  display: flex;
+}

@@ -1,0 +1,595 @@
+{
+  "services_hero": {
+    "bigWords": {
+      "line1": "Design.",
+      "line2": "Develop.",
+      "line3": "Deliver."
+    },
+    "title": "Future-Ready Digital Experiences",
+    "whoWeAre": "We are a digital experience agency based in Istanbul.",
+    "howWeHelp": "How we help brands",
+    "paragraph": "We craft powerful and refined digital solutions that elevate brands, strengthen online presence, and create seamless user experiences. Our focus spans creative strategy, visual identity, UX/UI design, and end-to-end web development to help businesses move with confidence in a fast-changing digital world."
+  },
+
+  "focusTitle": "Focus",
+  "focus": {
+    "section1": {
+      "title": "Human-Centered Approach",
+      "subtitle": "We start every project by deeply understanding the people who will use your product.",
+      "focusOn": {
+        "focusOn1": "User goals",
+        "focusOn2": "Pain points",
+        "focusOn3": "Real behavior",
+        "focusOn4": "Clear, actionable insights"
+      },
+      "images": {
+        "image1": "/images/passion.jpg",
+        "image2": "/images/together.jpg"
+      }
+    },
+    "section2": {
+      "title": "Precision in Craft",
+      "subtitle": "Design, development, and strategy come together with meticulous attention to detail.",
+      "focusOn": {
+        "focusOn1": "Structure & flow",
+        "focusOn2": "UX clarity",
+        "focusOn3": "UI consistency",
+        "focusOn4": "Technical quality"
+      },
+      "images": {
+        "image1": "/images/diamond.jpg",
+        "image2": "/images/grid.jpg"
+      }
+    },
+    "section3": {
+      "title": "Results That Matter",
+      "subtitle": "We don’t just create beautiful products—we build experiences that move metrics.",
+      "focusOn": {
+        "focusOn1": "Faster load times",
+        "focusOn2": "Higher conversions",
+        "focusOn3": "Better engagement",
+        "focusOn4": "Long-term scalability"
+      },
+      "images": {
+        "image1": "/images/chart.jpg",
+        "image2": "/images/rocket.jpg"
+      }
+    },
+    "section4": {
+      "title": "Innovation & Technology",
+      "subtitle": "We leverage cutting-edge technology to create forward-thinking, scalable solutions.",
+      "focusOn": {
+        "focusOn1": "Modern frameworks",
+        "focusOn2": "AI & automation",
+        "focusOn3": "Future-proof architecture",
+        "focusOn4": "Seamless integrations"
+      },
+      "images": {
+        "image1": "/images/lightbulb.jpg",
+        "image2": "/images/innovation.jpg"
+      }
+    }
+  },
+
+  "servicesTitle": "Services",
+  "services": {
+    "webDevelopment": {
+      "title": "Web Development",
+      "items": [
+        "Corporate websites",
+        "Landing pages",
+        "E-commerce websites",
+        "Dashboard / Admin panel",
+        "Custom software (CRM, SaaS, management systems)",
+        "API development / integration"
+      ],
+      "gif": "/gifs/desing.gif"
+    },
+    "mobileAppDevelopment": {
+      "title": "Mobile App Development",
+      "items": [
+        "React Native / Flutter apps",
+        "iOS + Android publishing",
+        "Mobile UI/UX design",
+        "Push notification integration"
+      ],
+      "gif": "/gifs/mobile.gif"
+    },
+    "uiUxDesign": {
+      "title": "UI / UX Design",
+      "items": [
+        "Web UI design",
+        "Mobile UI design",
+        "UX research",
+        "Wireframe + prototype",
+        "Design system (component library)"
+      ],
+      "gif": "/gifs/ux.gif"
+    },
+    "brandingCreative": {
+      "title": "Branding & Creative",
+      "items": [
+        "Logo design",
+        "Brand identity",
+        "Color palette + typography",
+        "Launch packages",
+        "Social media template designs"
+      ],
+      "gif": "/gifs/lamb.gif"
+    },
+    "seoOptimization": {
+      "title": "SEO & Optimization",
+      "items": [
+        "Technical SEO",
+        "Performance optimization",
+        "Core Web Vitals improvement",
+        "Site speed testing",
+        "Keyword analysis",
+        "Content optimization"
+      ],
+      "gif": "/gifs/seo.gif"
+    },
+    "consultingStrategy": {
+      "title": "Consulting & Strategy",
+      "items": [
+        "Digital transformation consulting",
+        "Product planning (MVP planning)",
+        "Market analysis",
+        "Technology selection consulting"
+      ],
+      "gif": "/gifs/chart.gif"
+    }
+  },
+
+  "packagesTitle": "Packages",
+  "choose": "Choose",
+  "your": "Your",
+  "level": "Level",
+  "servicePackages": {
+    "webDevelopment": {
+      "title": "Web Development",
+      "packages": {
+        "starter": {
+          "title": "Starter Web Package",
+          "items": [
+            "Single-page corporate website or landing page",
+            "Fast design with UI kit",
+            "Mobile responsive",
+            "Basic SEO setup",
+            "1 contact form",
+            "Delivery in 1 week"
+          ]
+        },
+        "pro": {
+          "title": "Pro Web Package",
+          "items": [
+            "5–7 page corporate website",
+            "Custom UI design + wireframe",
+            "Admin panel (content management)",
+            "Blog page",
+            "Speed optimization",
+            "SEO friendly structure",
+            "Delivery in 2 weeks"
+          ]
+        },
+        "premium": {
+          "title": "Premium Web Platform Package",
+          "items": [
+            "Corporate website + custom modules",
+            "Multi-language support",
+            "CRM / ERP integration",
+            "API development",
+            "Dashboard development",
+            "Performance and security setup",
+            "1–1 training + strategy meeting"
+          ]
+        }
+      }
+    },
+
+    "mobileAppDevelopment": {
+      "title": "Mobile App Development",
+      "packages": {
+        "starter": {
+          "title": "Starter Mobile",
+          "items": [
+            "Basic React Native/Flutter app",
+            "3–4 screens",
+            "Firebase backend",
+            "Basic push notifications",
+            "Android release"
+          ]
+        },
+        "pro": {
+          "title": "Pro Mobile",
+          "items": [
+            "iOS + Android release",
+            "10+ screens",
+            "Authentication system",
+            "API integration",
+            "Admin panel",
+            "Notification system"
+          ]
+        },
+        "premium": {
+          "title": "Premium Mobile Product",
+          "items": [
+            "MVP + production-ready app",
+            "Custom backend & API",
+            "Design system + animated UI",
+            "Testing scenarios",
+            "Store optimization (ASO)",
+            "Ongoing consulting"
+          ]
+        }
+      }
+    },
+
+    "uiUxDesign": {
+      "title": "UI / UX Design",
+      "packages": {
+        "starter": {
+          "title": "Starter UI/UX",
+          "items": [
+            "3–5 screens",
+            "Wireframe",
+            "Basic user flow",
+            "Color & typography guide"
+          ]
+        },
+        "pro": {
+          "title": "Pro UI/UX",
+          "items": [
+            "10–20 screens",
+            "Design system foundation",
+            "User journey",
+            "Figma prototype",
+            "Revision rights"
+          ]
+        },
+        "premium": {
+          "title": "Premium Design System",
+          "items": [
+            "End-to-end design system",
+            "Component library",
+            "Mobile + tablet + web variations",
+            "UX research",
+            "Usability testing",
+            "Documentation"
+          ]
+        }
+      }
+    },
+
+    "brandingCreative": {
+      "title": "Branding & Creative",
+      "packages": {
+        "starter": {
+          "title": "Starter Brand",
+          "items": [
+            "Logo design",
+            "Mini color palette",
+            "Typography selection",
+            "1 social media cover visual"
+          ]
+        },
+        "pro": {
+          "title": "Pro Branding",
+          "items": [
+            "Brand identity set",
+            "Logo variations",
+            "Color & typography system",
+            "10 social media templates",
+            "Basic brand guideline"
+          ]
+        },
+        "premium": {
+          "title": "Premium Brand Identity",
+          "items": [
+            "Full professional brand identity",
+            "Launch kits",
+            "Social media content pack",
+            "Printed materials",
+            "Brand strategy document"
+          ]
+        }
+      }
+    },
+
+    "seoOptimization": {
+      "title": "SEO & Optimization",
+      "packages": {
+        "starter": {
+          "title": "Starter SEO",
+          "items": [
+            "Technical SEO audit",
+            "Basic improvements",
+            "Speed optimization",
+            "5 keyword analysis"
+          ]
+        },
+        "pro": {
+          "title": "Pro SEO Boost",
+          "items": [
+            "Core Web Vitals improvement",
+            "On-page SEO",
+            "Content structuring",
+            "20 keyword analysis",
+            "Competitor analysis"
+          ]
+        },
+        "premium": {
+          "title": "Premium SEO & Growth",
+          "items": [
+            "Monthly SEO management",
+            "Blog content plan",
+            "Backlink work",
+            "Performance monitoring",
+            "Detailed reporting"
+          ]
+        }
+      }
+    },
+
+    "consultingStrategy": {
+      "title": "Consulting & Strategy",
+      "packages": {
+        "starter": {
+          "title": "Startup Strategy",
+          "items": [
+            "MVP planning",
+            "Technology selection",
+            "Competitor analysis",
+            "1 meeting"
+          ]
+        },
+        "pro": {
+          "title": "Pro Strategy",
+          "items": [
+            "Product roadmap",
+            "Market analysis",
+            "UX strategy",
+            "2 meetings per month"
+          ]
+        },
+        "premium": {
+          "title": "Digital Transformation",
+          "items": [
+            "Digital transformation plan",
+            "Technical architecture consulting",
+            "Process analysis",
+            "Team building & training",
+            "Weekly meetings"
+          ]
+        }
+      }
+    }
+  },
+
+  "myPackages": "Our Packages",
+  "packages": {
+    "starter": {
+      "packageName": "Starter Package",
+      "title": "Basic Digital Launch",
+      "content": {
+        "content1": "Web: Corporate site, Landing page",
+        "content2": "UI/UX: Web design",
+        "content3": "Branding: Logo, Identity",
+        "content4": "SEO: Basic SEO, Speed test"
+      }
+    },
+    "pro": {
+      "packageName": "Pro Package",
+      "title": "For Growing Businesses",
+      "content": {
+        "content1": "Web: Corporate site, Landing page, E-commerce, Admin panel",
+        "content2": "Mobile: React Native / Flutter apps",
+        "content3": "UI/UX: Web & Mobile design, UX research, Prototype",
+        "content4": "Branding: Logo, Identity, Color & Typography",
+        "content5": "SEO: Technical SEO, Performance, Core Web Vitals",
+        "content6": "Consulting: Digital strategy, MVP planning, Market analysis"
+      }
+    },
+    "enterprise": {
+      "packageName": "Enterprise Package",
+      "title": "Corporate & Full Solutions",
+      "content": {
+        "content1": "Web: All services + Custom software + API integration",
+        "content2": "Mobile: Apps, iOS/Android publishing, Push notifications",
+        "content3": "UI/UX: Full Web & Mobile, Prototype, Design system",
+        "content4": "Branding: Full branding, Launch packages, Social templates",
+        "content5": "SEO: All SEO, Core Web Vitals, Content optimization",
+        "content6": "Consulting: Strategy, MVP planning, Market & Tech analysis"
+      }
+    }
+  },
+
+  "hero": {
+    "spider": "Like a spider...",
+    "slogan1": "The finesse of the web, the elegance of design.",
+    "slogan2": "Digital networks built with precision.",
+    "letsTalk": "Let's Talk",
+    "paragraph": "We connect brands and their audience through strategy, research, modern technology, and purposeful design.",
+    "readMore": "Keep exploring",
+    "bigWords": {
+      "line1": "Design.",
+      "line2": "Develop.",
+      "line3": "Deliver."
+    }
+  },
+
+  "cta": {
+    "mainTitle": "Let's Shape Your Project Together",
+    "subtitle": "Whether you have a clear idea or are undecided — we can reach the right solution together.",
+    "options": {
+      "consult": {
+        "title": "Which Package Suits Me?",
+        "description": "Not sure? No worries! We'll guide you quickly to the best option.",
+        "button": "Get Consultation"
+      },
+      "offer": {
+        "title": "I Want a Quote Directly",
+        "description": "Have your project ready? Send the details and get a personalized offer.",
+        "button": "Get Offer"
+      }
+    }
+  },
+
+  "faqTitle": "FAQ",
+  "faq": [
+    {
+      "question": "Which package suits me?",
+      "answer": "Don't worry if you're undecided! We can analyze your needs and determine the best package together."
+    },
+    {
+      "question": "How does the revision process work?",
+      "answer": "All our packages include revision rights. Details may vary depending on the package, and we plan every step together."
+    },
+    {
+      "question": "What is the delivery time?",
+      "answer": "It depends on the scope of your project. Average delivery time is 2-6 weeks; you can find detailed information in the package descriptions."
+    },
+    {
+      "question": "How is payment made?",
+      "answer": "Payments are made securely via bank transfer or online payment methods. We share the details after you receive the quote."
+    },
+    {
+      "question": "How does the process proceed?",
+      "answer": "First, we clarify your needs, then you select the package and quote. After approval, the project begins and we proceed step by step."
+    }
+  ],
+
+  "contact": {
+    "heading": "Good things happn when you say hey.",
+    "interested": "I am interested in",
+    "firstname": "First Name",
+    "lastname": "Last Name",
+    "email": "Email",
+    "message": "Message",
+    "budget": "Budget",
+    "attachments": "Attachments",
+    "send": "Send",
+    "info": "Fill out the form to get information about our packages and pricing. Just let us know your needs and budget."
+  },
+
+  "about": {
+    "title": "About Us",
+    "section1": {
+      "title": "Mission and Vision: A Digital Experience Agency Rising from Istanbul",
+      "main_text": "At Ozzenc, we are a dynamic Digital Experience Agency and technology studio based in Istanbul. We transcend the traditional agency boundaries, creating powerful and refined digital solutions that elevate brands, strengthen online presence, and create seamless user experiences.",
+      "mission": "Our mission is to connect brands and their audience through strategy, research, modern technology, and purposeful design.",
+      "vision": "Our vision is to provide future-ready digital experiences, enabling businesses to move with confidence in a fast-changing digital world."
+    },
+    "section2": {
+      "title": "Value Proposition and Difference: Precision in Craft and Results That Matter",
+      "intro": "Our focus is not just on creating beautiful products, but on building experiences that move metrics and are scalable in the long term. Our four core values, which set us apart from our competitors, form the foundation of every service we offer:",
+      "values": {
+        "value1": {
+          "title": "Human-Centered Approach",
+          "description": "We start every project by deeply understanding the people who will use the product. We gain clear and actionable insights based on user goals, pain points, and real behaviors."
+        },
+        "value2": {
+          "title": "Precision in Craft",
+          "description": "Design, development, and strategy come together with meticulous attention to structure, flow, and UI consistency. UX clarity and technical quality are always prioritized in our products."
+        },
+        "value3": {
+          "title": "Innovation & Technology",
+          "description": "We leverage advanced technologies such as modern frameworks, AI, and automation to create future-proof, scalable solutions, working on future-ready architecture."
+        },
+        "value4": {
+          "title": "Results That Matter",
+          "description": "Metrics are everything to us. Our focus is always on delivering higher conversions, better engagement, faster load times, and long-term scalability."
+        }
+      }
+    },
+    "section3": {
+      "title": "Team and Culture: Comprehensive Expertise, Single Goal",
+      "main_text": "The Ozzenc team consists of professionals specializing in their respective fields, offering full-service solutions. We are a team that builds digital networks with precision.",
+      "expertise_intro": "Our comprehensive services and areas of expertise:",
+      "expertise": [
+        "End-to-End Development: We offer all types of Web Development solutions you need, from corporate websites and e-commerce sites to custom software (CRM, SaaS).",
+        "UI/UX and Design Systems: Our meticulous approach to Web and Mobile UI/UX design, UX research, and Design System (component library) creation combines usability and brand identity.",
+        "Strategic Partnership: With our Consulting and Strategy services (MVP planning, market analysis, and technology selection consulting), we aim to be more than just a service provider—we aim to be a strategic partner in your digital transformation."
+      ],
+      "culture_philosophy": "Our culture is built upon the philosophy of Design. Develop. Deliver. With an agile, transparent, and results-oriented approach, we consider your success our own."
+    },
+    "section4": {
+      "title": "Call to Action: Ready to Grow Together.",
+      "intro": "We are ready to take on our role in your success story. Whether you come with a clear idea or are undecided — we can reach the right solution together.",
+      "outro": "Let's analyze your needs and determine the most suitable option among our Packages to start your digital journey.",
+      "cta": {
+        "consult_button": "Get Consultation",
+        "offer_button": "Get Offer"
+      }
+    }
+  },
+  
+  "home": {
+    "hero": {
+      "bigWords": ["Creativity", "and", "Technology", "Here."],
+      "tagline": "We design and develop digital experiences that drive businesses forward, strengthen the brand, and deliver measurable results.",
+      "cta_primary": "Start a Project",
+      "cta_secondary": "See Our Works"
+    },
+    "caseStudies": {
+      "title": "Our Success Stories",
+      "subtitle": "Discover the value we add to our clients through our creative solutions and strategic partnerships.",
+      "list": [
+        {
+          "client": "SmartOffice",
+          "project": "Enterprise SaaS Platform",
+          "focus": "UX/UI, Custom Dev",
+          "result": "45% increase in user engagement."
+        },
+        {
+          "client": "NatureEats",
+          "project": "E-Commerce Transformation",
+          "focus": "UI Design, Performance",
+          "result": "30% growth in mobile conversion rate."
+        },
+        {
+          "client": "EduPlus",
+          "project": "Learning Portal Relaunch",
+          "focus": "Web Development, API Integration",
+          "result": "50% reduction in page load time."
+        }
+      ]
+    },
+    "philosophy": {
+      "title": "Our Production Philosophy",
+      "subtitle": "Our simple and transparent three-step process that guarantees the success of every project.",
+      "step1": {
+        "title": "Discover & Understand",
+        "detail": "We deeply analyze your needs, goals, and users. We establish the core strategy that defines success."
+      },
+      "step2": {
+        "title": "Design & Develop",
+        "detail": "We code user experience (UX) focused designs with pixel perfection, utilizing the latest technologies. We proceed with agility and transparency."
+      },
+      "step3": {
+        "title": "Launch & Grow",
+        "detail": "We launch your project live. We monitor performance, gather feedback, and continuously improve your digital presence."
+      }
+    },
+    "expertise": {
+      "title": "Our Expertise Areas",
+      "subtitle": "The cornerstones of the solutions we offer to make your brand stand out in the digital world.",
+      "area1": {
+        "name": "UX/UI Design",
+        "description": "From user experience (UX) research to aesthetic and functional interface (UI) design, we craft your brand's digital identity."
+      },
+      "area2": {
+        "name": "Web Development",
+        "description": "We develop fast, scalable, and SEO-friendly end-to-end web solutions using modern technologies like React and Next.js."
+      },
+      "area3": {
+        "name": "Strategic Consulting",
+        "description": "We ensure your investment receives the best return through services like MVP planning, technology selection, and digital strategy creation."
+      }
+    },
+    "cta_section": {
+      "heading": "Let's Get Started, Together.",
+      "button": "Click Here for a Quote"
+    }
+  }
+}

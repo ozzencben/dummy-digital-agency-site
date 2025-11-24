@@ -1,0 +1,118 @@
+.faq-section-container {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  z-index: 1;
+  /* DÜZELTME: Arkaplanı koyu renk yapıp vurgu rengini kart içeriğine taşıyoruz. */
+  background-color: var(--color-primary); 
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 50px 0; /* İç ve dış boşluk eklendi */
+}
+
+/* --- BAŞLIK STİLİ --- */
+.faq-title {
+  font-size: clamp(4rem, 8vw, 6rem); /* Boyut küçültüldü */
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--color-tertiary); /* Başlık rengi vurgu rengi */
+  letter-spacing: 3px;
+  margin-bottom: 2rem;
+  text-align: center; 
+  width: 90%;
+  max-width: 1000px;
+}
+
+/* --- AKORDİYON KAPSAYICI --- */
+.faqs-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Kartlar arası boşluk */
+}
+
+/* --- TEKİL FAQ KARTI --- */
+.faq-card {
+  /* Brutalist Tasarım Uygulanıyor */
+  background-color: var(--bg-color-primary, #111); 
+  border: 3px solid var(--color-tertiary); 
+  cursor: pointer;
+  overflow: hidden; /* Animasyon için önemli */
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+/* Soru Başlığı (Tıklama Alanı) */
+.question-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 25px;
+}
+
+.faq-question {
+  font-size: clamp(1.2rem, 2.5vw, 1.6rem);
+  color: var(--white-color, #fff); 
+  font-weight: 600;
+  max-width: 90%;
+  transition: color 0.2s ease;
+}
+
+/* Açma/Kapama İkonu */
+.faq-icon {
+  font-size: clamp(1.2rem, 2vw, 1.8rem);
+  color: var(--color-tertiary);
+  transition: transform 0.3s ease-in-out;
+  flex-shrink: 0; /* Küçülmesini engeller */
+}
+
+/* --- HOVER VE ACTIVE STİLLERİ --- */
+/* Kart üzerine gelindiğinde/aktifken hafif bir vurgu */
+.faq-card:hover, .faq-card.active {
+    transform: translate(-4px, -4px); /* Hafif yukarı kalkma */
+}
+.faq-card.active {
+    border-color: var(--helper-color-secondary); /* Aktifken kenarlık rengi değişimi */
+}
+.faq-card.active .faq-question {
+    color: var(--helper-color-secondary); /* Aktifken yazı rengi değişimi */
+}
+
+/* Açık durumdaki ikonun 45 derece dönmesi */
+.faq-icon.active {
+  transform: rotate(45deg);
+  color: var(--helper-color-secondary);
+}
+
+/* --- CEVAP İÇERİĞİ --- */
+.answer-content {
+  padding: 0 25px 25px 25px; /* Üst padding 0, Framer Motion ile ayarlanacak */
+}
+
+.faq-answer {
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
+  color: #ccc; 
+  line-height: 1.6;
+  padding-top: 15px; /* Cevap ile soru arasına boşluk */
+  border-top: 1px dashed rgba(255, 255, 255, 0.1);
+}
+
+/* Mobil Uyumluluk */
+@media (max-width: 768px) {
+  .faq-card {
+    box-shadow: 4px 4px 0px var(--helper-color-secondary); 
+  }
+  .faq-card:hover, .faq-card.active {
+    box-shadow: 8px 8px 0px var(--helper-color-secondary); 
+  }
+  .question-box {
+    padding: 15px 20px;
+  }
+  .answer-content {
+    padding: 0 20px 20px 20px;
+  }
+}

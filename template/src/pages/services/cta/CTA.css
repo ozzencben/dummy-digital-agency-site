@@ -1,0 +1,156 @@
+/* --- Ana Kapsayıcı --- */
+.cta-section-container {
+  min-height: 100vh; /* Ekranı tam kapla */
+  width: 100%;
+  background-color: var(--black-color, #000);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* --- İçerik Sarmalayıcı (Paralaks ve Tilt Uygulanan Kısım) --- */
+.cta-content-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform-style: preserve-3d;
+}
+
+/* --- Arka Plan Metinleri (Paralaks Katmanları) --- */
+.cta-background-text {
+  position: absolute;
+  font-size: clamp(8rem, 15vw, 25rem); /* Devasa boyut */
+  font-weight: 900;
+  color: rgba(255, 255, 255, 0.05); /* Neredeyse görünmez */
+  text-transform: uppercase;
+  z-index: 0;
+  pointer-events: none;
+  white-space: nowrap;
+  transform-origin: center center;
+  letter-spacing: 5px;
+}
+.cta-bg-text-top {
+  top: 10%;
+  left: -5%;
+  transform: translateZ(-200px);
+}
+.cta-bg-text-bottom {
+  bottom: 10%;
+  right: -5%;
+  transform: translateZ(-100px);
+}
+
+/* --- Ana CTA İçeriği (Ön Planda) --- */
+.cta-main-content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: var(--white-color, #fff);
+  padding: 2rem;
+  transform: translateZ(0);
+  display: flex; /* Yeni: Başlık, alt başlık ve seçenekleri dikeyde tutar */
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta-heading {
+  font-size: clamp(3rem, 6vw, 5rem);
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--helper-color-primary);
+  letter-spacing: 3px;
+}
+
+.cta-subheading {
+  font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+  color: #ccc;
+  margin-bottom: 1rem;
+  max-width: 800px;
+  line-height: 1.5;
+}
+
+/* --- YENİ SEÇENEKLER KISMI --- */
+.cta-options {
+  display: flex;
+  gap: 3rem; /* Seçenekler arası boşluk */
+  margin-top: 1rem;
+}
+
+.option-card {
+  background-color: var(--white-color);
+  border: 2px solid var(--black-color);
+  padding: 2rem;
+  width: clamp(250px, 20vw, 350px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.option-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--black-color);
+  margin-bottom: 0.5rem;
+}
+
+.option-description {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+/* --- MEKANİK BUTON (Ortak Stil) --- */
+.option-button {
+  background-color: var(--color-tertiary);
+  color: var(--black-color);
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: 2px solid var(--black-color);
+  cursor: pointer;
+  outline: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-transform: uppercase;
+}
+
+/* --- Mobil Uyumluluk --- */
+@media (max-width: 768px) {
+  .cta-section-container {
+    height: auto;
+    padding: 5rem 1rem;
+  }
+  .cta-content-wrapper {
+    /* Mobil görünümde paralaks ve tilti devre dışı bırakıyoruz, sadece butona odaklan */
+    transform-style: unset;
+    transform: none !important;
+  }
+  .cta-background-text {
+    display: none; /* Mobilde arka plan metinlerini gizle */
+  }
+  .cta-options {
+    flex-direction: column; /* Alt alta diz */
+    gap: 1.5rem;
+  }
+  .option-card {
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 5px 5px 0px var(--helper-color-secondary);
+  }
+}

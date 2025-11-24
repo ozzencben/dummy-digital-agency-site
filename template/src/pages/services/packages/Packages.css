@@ -1,0 +1,380 @@
+/* --- Ana Kapsayıcılar --- */
+.packages-section {
+  height: 350vh;
+  width: 100%;
+  position: relative;
+  background-color: var(--black-color, #000);
+  z-index: 1;
+}
+
+.packages-sticky-wrapper {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  background-color: var(--helper-color-primary);
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.03) 1px,
+      transparent 1px
+    ),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
+
+.packages-header {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  z-index: 10;
+  pointer-events: none;
+}
+.packages-main-title {
+  font-size: clamp(60px, 8vw, 120px);
+  color: var(--text-color-primary);
+  text-transform: uppercase;
+  font-weight: bold;
+  opacity: 0.2;
+  line-height: 0.8;
+}
+
+.packages-overflow-hidden {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+.packages-track {
+  display: flex;
+  gap: 4vw;
+  padding-left: 5vw;
+}
+
+/* --- KART TASARIMI --- */
+.package-card {
+  width: 40vw;
+  min-width: 350px;
+  height: 70vh;
+  background-color: var(--white-color);
+  border: 2px solid var(--color-tertiary);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+  box-shadow: 15px 15px 0px var(--black-color);
+  overflow: hidden; /* Dışarı taşmayı engeller */
+}
+
+.package-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 20px 20px 0px var(--color-tertiary);
+}
+
+/* Intro Card */
+.intro-card {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  font-size: clamp(40px, 4.5vw, 80px);
+  font-weight: 900;
+  line-height: 0.9;
+  color: var(--helper-color-secondary);
+  text-transform: uppercase;
+}
+.hollow-text {
+  color: transparent;
+  -webkit-text-stroke: 2px var(--helper-color-secondary);
+}
+
+.card-top {
+  background-color: var(--color-tertiary);
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid var(--black-color);
+  flex-shrink: 0;
+  z-index: 2;
+}
+.card-index {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--helper-color-primary);
+  font-family: monospace;
+}
+.card-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--text-color-primary);
+  text-transform: uppercase;
+}
+
+/* --- FLEX MODAL SİSTEMİ (EN ÖNEMLİ KISIM) --- */
+.card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100%; /* Kartın tüm içini kapla */
+}
+
+.accordion-item {
+  border-bottom: 1px solid var(--black-color);
+  background-color: #f9f9f9;
+  cursor: pointer;
+  overflow: hidden;
+
+  /* Animasyonun kalbi burası */
+  transition: flex-grow 0.5s cubic-bezier(0.25, 1, 0.5, 1),
+    background-color 0.3s;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion-item:last-child {
+  border-bottom: none;
+}
+
+/* KAPALI DURUM (Inactive) */
+.accordion-item.inactive {
+  flex-grow: 0; /* Sadece başlık kadar yer kapla */
+  flex-shrink: 0; /* Asla daha fazla küçülme */
+  flex-basis: 60px; /* Başlık yüksekliği kadar taban değer */
+}
+.accordion-item.inactive:hover {
+  background-color: #eee;
+}
+
+/* AÇIK DURUM (Active - Modal Gibi) */
+.accordion-item.active {
+  flex-grow: 1; /* Kalan TÜM boşluğu al */
+  background-color: var(--white-color);
+  box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.03); /* Hafif derinlik hissi */
+}
+
+/* Başlık Alanı */
+.accordion-header {
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px; /* Sabit yükseklik */
+  flex-shrink: 0; /* Başlık asla ezilmez */
+  width: 100%;
+}
+
+.accordion-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--black-color);
+  margin: 0;
+  white-space: nowrap;
+}
+
+.accordion-icon {
+  font-size: 1.5rem;
+  color: var(--color-tertiary);
+  transition: transform 0.3s ease;
+  display: flex;
+}
+.accordion-icon.rotated {
+  transform: rotate(45deg);
+  color: var(--black-color);
+}
+
+/* İÇERİK SARMALAYICI (Modal Content) */
+.accordion-content-wrapper {
+  flex-grow: 1; /* Açık olan itemin kalan tüm boşluğunu kapla */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* İÇERİĞİ DİKEYDE ORTALA (Modal Hissi) */
+  align-items: center; /* İçeriği yatayda ortala (İsteğe bağlı) */
+  opacity: 0;
+  transition: opacity 0.4s ease 0.2s; /* Hafif gecikmeli gelsin */
+  width: 100%;
+  overflow: hidden; /* Taşma yok */
+}
+
+.accordion-item.active .accordion-content-wrapper {
+  opacity: 1;
+}
+
+/* İçerik Kutusu */
+.accordion-content-inner {
+  width: 100%;
+  padding: 0 2rem;
+  /* İçerik çok uzunsa scroll devreye girer ama normalde ortalı durur */
+  max-height: 100%;
+  overflow-y: auto;
+}
+
+/* Scrollbar Gizleme */
+.accordion-content-inner {
+  scrollbar-width: none;
+}
+.accordion-content-inner::-webkit-scrollbar {
+  display: none;
+}
+
+.sub-package-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sub-package-list li {
+  font-size: 1.15rem; /* Yazılar okunaklı ve büyük */
+  color: #444;
+  margin-bottom: 0.8rem;
+  padding-left: 25px;
+  position: relative;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.sub-package-list li::before {
+  content: "✔"; /* Tik işareti daha şık durabilir */
+  position: absolute;
+  left: 0;
+  color: var(--color-tertiary);
+  font-weight: bold;
+  font-size: 0.9rem;
+  top: 2px;
+}
+
+/* --- MOBİL --- */
+@media (max-width: 768px) {
+  .packages-section {
+    height: auto;
+    padding: 2rem 0;
+    background-color: var(--helper-color-primary);
+  }
+  .packages-sticky-wrapper {
+    position: relative;
+    height: auto;
+    flex-direction: column;
+    overflow: visible;
+    background: none;
+  }
+  .packages-header {
+    position: relative;
+    opacity: 1 !important;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+  }
+  .packages-main-title {
+    font-size: 3rem;
+    opacity: 1;
+    color: var(--color-tertiary);
+  }
+  .packages-overflow-hidden {
+    height: auto;
+    display: block;
+  }
+  .packages-track {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem;
+  }
+  .intro-card {
+    display: none;
+  }
+
+  .package-card {
+    width: 100%;
+    height: auto;
+    min-width: unset;
+    box-shadow: 5px 5px 0px var(--black-color);
+  }
+
+  /* Mobilde Flex yapısını iptal et, normal akış yap */
+  .card-body {
+    display: block;
+    height: auto;
+  }
+  .accordion-item {
+    flex-grow: 0 !important;
+    flex-basis: auto !important;
+  }
+  .accordion-content-wrapper {
+    display: none;
+    height: auto;
+    opacity: 1;
+  }
+  .accordion-item.active .accordion-content-wrapper {
+    display: block;
+    padding-bottom: 1rem;
+  }
+}
+
+/* --- MOBILE & TABLET SAFE FIX --- */
+@media (max-width: 1024px) {
+  html,
+  body {
+    overflow-x: hidden !important;
+  }
+
+  .packages-section {
+    overflow-x: hidden !important;
+  }
+
+  .packages-track {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    gap: 1.5rem !important;
+  }
+
+  /* Kartların genişliği taşma yapmasın */
+  .package-card {
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  /* İçeride taşan başka elementler varsa temizler */
+  .package-card * {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+  }
+}
+
+@media (max-width: 1024px) {
+  .packages-sticky-wrapper {
+    padding: 10px;
+  }
+
+  .packages-track {
+    display: flex !important;
+    flex-direction: column !important;
+
+    /* en kritik temizleme */
+    overflow-x: hidden !important;
+    overflow-y: visible !important;
+    white-space: normal !important;
+    transform: none !important;
+    scroll-snap-type: none !important;
+
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .package-card {
+    min-width: 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+  }
+}

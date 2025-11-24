@@ -1,0 +1,583 @@
+{
+  "focusTitle": "Focus",
+  "focus": {
+    "section1": {
+      "title": "İnsan Odaklı Yaklaşım",
+      "subtitle": "Her projeye, ürünü kullanacak kişileri derinlemesine anlayarak başlarız.",
+      "focusOn": {
+        "focusOn1": "Kullanıcı hedefleri",
+        "focusOn2": "Acı noktaları",
+        "focusOn3": "Gerçek davranış",
+        "focusOn4": "Uygulanabilir içgörüler"
+      },
+      "images": {
+        "image1": "/images/passion.jpg",
+        "image2": "/images/together.jpg"
+      }
+    },
+    "section2": {
+      "title": "Titiz Zanaatkârlık",
+      "subtitle": "Tasarım, geliştirme ve strateji; detaylara gösterilen özenle birleşir.",
+      "focusOn": {
+        "focusOn1": "Yapı ve akış",
+        "focusOn2": "UX netliği",
+        "focusOn3": "UI tutarlılığı",
+        "focusOn4": "Teknik kalite"
+      },
+      "images": {
+        "image1": "/images/diamond.jpg",
+        "image2": "/images/grid.jpg"
+      }
+    },
+    "section3": {
+      "title": "Gerçek Sonuçlar",
+      "subtitle": "Sadece güzel görünen değil, metrikleri harekete geçiren dijital deneyimler üretiriz.",
+      "focusOn": {
+        "focusOn1": "Daha hızlı yükleme süreleri",
+        "focusOn2": "Daha yüksek dönüşüm",
+        "focusOn3": "Daha iyi etkileşim",
+        "focusOn4": "Uzun vadeli ölçeklenebilirlik"
+      },
+      "images": {
+        "image1": "/images/chart.jpg",
+        "image2": "/images/rocket.jpg"
+      }
+    },
+    "section4": {
+      "title": "İnovasyon & Teknoloji",
+      "subtitle": "Geleceğe dönük, ölçeklenebilir çözümler yaratmak için ileri teknoloji kullanıyoruz.",
+      "focusOn": {
+        "focusOn1": "Modern frameworkler",
+        "focusOn2": "Yapay zeka ve otomasyon",
+        "focusOn3": "Geleceğe hazır mimari",
+        "focusOn4": "Sorunsuz entegrasyonlar"
+      },
+      "images": {
+        "image1": "/images/lightbulb.jpg",
+        "image2": "/images/innovation.jpg"
+      }
+    }
+  },
+
+  "servicesTitle": "Hizmetlerimiz",
+  "services": {
+    "webDevelopment": {
+      "title": "Web Geliştirme",
+      "items": [
+        "Kurumsal web sitesi",
+        "Landing page",
+        "E-ticaret siteleri",
+        "Dashboard / Admin panel",
+        "Özel yazılım (CRM, SaaS, yönetim sistemleri)",
+        "API geliştirme / entegrasyon"
+      ],
+      "gif": "/gifs/desing.gif"
+    },
+    "mobileAppDevelopment": {
+      "title": "Mobil Uygulama Geliştirme",
+      "items": [
+        "React Native / Flutter uygulamaları",
+        "iOS + Android yayınlama",
+        "Mobil UI/UX tasarımı",
+        "Push notification entegrasyonu"
+      ],
+      "gif": "/gifs/mobile.gif"
+    },
+    "uiUxDesign": {
+      "title": "UI / UX Tasarım",
+      "items": [
+        "Web UI tasarım",
+        "Mobil UI tasarım",
+        "UX araştırması",
+        "Wireframe + prototip",
+        "Design system (component kütüphanesi)"
+      ],
+      "gif": "/gifs/ux.gif"
+    },
+    "brandingCreative": {
+      "title": "Marka ve Görsel İletişim",
+      "items": [
+        "Logo tasarımı",
+        "Marka kimliği",
+        "Renk paleti + tipografi",
+        "Lansman paketleri",
+        "Sosyal medya görsel şablonları"
+      ],
+      "gif": "/gifs/lamb.gif"
+    },
+    "seoOptimization": {
+      "title": "SEO & Optimizasyon",
+      "items": [
+        "Teknik SEO",
+        "Performans optimizasyonu",
+        "Core Web Vitals iyileştirme",
+        "Site hız testi",
+        "Anahtar kelime analizi",
+        "İçerik optimizasyonu"
+      ],
+      "gif": "/gifs/seo.gif"
+    },
+    "consultingStrategy": {
+      "title": "Danışmanlık & Strateji",
+      "items": [
+        "Dijital dönüşüm danışmanlığı",
+        "Ürün planlama (MVP planlama)",
+        "Pazar analizi",
+        "Teknoloji seçimi danışmanlığı"
+      ],
+      "gif": "/gifs/chart.gif"
+    }
+  },
+
+  "packagesTitle": "Paketlerimiz",
+  "choose": "Lütfen",
+  "your": "Seviyenizi",
+  "level": "Seçin",
+  "servicePackages": {
+    "webDevelopment": {
+      "title": "Web Geliştirme",
+      "packages": {
+        "starter": {
+          "title": "Starter Web Paketi",
+          "items": [
+            "Tek sayfalık kurumsal site veya landing page",
+            "Hazır UI kit ile hızlı tasarım",
+            "Mobil uyumluluk",
+            "Temel SEO kurulumu",
+            "1 adet iletişim formu",
+            "1 haftada teslim"
+          ]
+        },
+        "pro": {
+          "title": "Pro Web Paketi",
+          "items": [
+            "5–7 sayfalık kurumsal web sitesi",
+            "Özel UI tasarımı + wireframe",
+            "Admin panel (içerik yönetimi)",
+            "Blog sayfası",
+            "Hız optimizasyonu",
+            "SEO uyumlu yapı",
+            "2 hafta teslim"
+          ]
+        },
+        "premium": {
+          "title": "Premium Web Platform Paketi",
+          "items": [
+            "Kurumsal site + özel modüller",
+            "Çok dilli yapı",
+            "CRM / ERP entegrasyonu",
+            "API geliştirme",
+            "Dashboard geliştirme",
+            "Performans ve güvenlik yapılandırması",
+            "1–1 eğitim ve strateji toplantısı"
+          ]
+        }
+      }
+    },
+
+    "mobileAppDevelopment": {
+      "title": "Mobil Uygulama Geliştirme",
+      "packages": {
+        "starter": {
+          "title": "Starter Mobile",
+          "items": [
+            "Basit React Native/Flutter uygulaması",
+            "3–4 ekran",
+            "Firebase backend",
+            "Temel push notification",
+            "Android yayını"
+          ]
+        },
+        "pro": {
+          "title": "Pro Mobile",
+          "items": [
+            "iOS + Android yayınlama",
+            "10+ ekran",
+            "Üyelik sistemi",
+            "API entegrasyonu",
+            "Admin panel",
+            "Bildirim sistemi"
+          ]
+        },
+        "premium": {
+          "title": "Premium Mobil Ürün",
+          "items": [
+            "MVP + üretim hazır uygulama",
+            "Özel backend & API",
+            "Tasarım sistemi + animasyonlu UI",
+            "Test senaryoları",
+            "Store optimizasyonu (ASO)",
+            "Sürekli danışmanlık"
+          ]
+        }
+      }
+    },
+
+    "uiUxDesign": {
+      "title": "UI / UX Tasarım",
+      "packages": {
+        "starter": {
+          "title": "Starter UI/UX",
+          "items": [
+            "3–5 ekran tasarımı",
+            "Wireframe",
+            "Basit kullanıcı akışı",
+            "Renk & tipografi rehberi"
+          ]
+        },
+        "pro": {
+          "title": "Pro UI/UX",
+          "items": [
+            "10–20 ekran",
+            "Design system başlangıcı",
+            "Kullanıcı yolculuğu",
+            "Figma prototipi",
+            "Revizyon hakkı"
+          ]
+        },
+        "premium": {
+          "title": "Premium Design System",
+          "items": [
+            "Uçtan uca tasarım sistemi",
+            "Component library",
+            "Mobil + tablet + web varyasyonları",
+            "UX araştırması",
+            "Kullanılabilirlik testleri",
+            "Dokümantasyon"
+          ]
+        }
+      }
+    },
+
+    "brandingCreative": {
+      "title": "Marka ve Görsel İletişim",
+      "packages": {
+        "starter": {
+          "title": "Starter Brand",
+          "items": [
+            "Logo tasarımı",
+            "Mini renk paleti",
+            "Tipografi seçimi",
+            "1 sosyal medya kapak görseli"
+          ]
+        },
+        "pro": {
+          "title": "Pro Branding",
+          "items": [
+            "Marka kimliği seti",
+            "Logo alternatifleri",
+            "Renk & tipografi sistemi",
+            "10 sosyal medya şablonu",
+            "Temel marka kullanım kılavuzu"
+          ]
+        },
+        "premium": {
+          "title": "Premium Marka Kimliği",
+          "items": [
+            "Tam profesyonel marka kimliği",
+            "Lansman kitleri",
+            "Sosyal medya içerik seti",
+            "Basılı materyaller",
+            "Marka stratejisi dokümanı"
+          ]
+        }
+      }
+    },
+
+    "seoOptimization": {
+      "title": "SEO & Optimizasyon",
+      "packages": {
+        "starter": {
+          "title": "Starter SEO",
+          "items": [
+            "Teknik SEO raporu",
+            "Basit iyileştirmeler",
+            "Hız testi optimizasyonu",
+            "5 anahtar kelime analizi"
+          ]
+        },
+        "pro": {
+          "title": "Pro SEO Boost",
+          "items": [
+            "Core Web Vitals iyileştirme",
+            "Site içi SEO",
+            "İçerik yapılandırma",
+            "20 anahtar kelime analizi",
+            "Rakip analizi"
+          ]
+        },
+        "premium": {
+          "title": "Premium SEO & Growth",
+          "items": [
+            "Aylık SEO yönetimi",
+            "Blog içerik planı",
+            "Backlink çalışması",
+            "Performans monitörü",
+            "Detaylı raporlama"
+          ]
+        }
+      }
+    },
+
+    "consultingStrategy": {
+      "title": "Danışmanlık & Strateji",
+      "packages": {
+        "starter": {
+          "title": "Startup Strategy",
+          "items": [
+            "MVP planlama",
+            "Teknoloji seçimi tavsiyesi",
+            "Rakip analizi",
+            "1 toplantı"
+          ]
+        },
+        "pro": {
+          "title": "Pro Strategy",
+          "items": [
+            "Ürün roadmap oluşturma",
+            "Pazar analizi",
+            "UX stratejisi",
+            "Aylık 2 toplantı"
+          ]
+        },
+        "premium": {
+          "title": "Digital Transformation",
+          "items": [
+            "Dijital dönüşüm planı",
+            "Teknik mimari danışmanlık",
+            "Süreç analizi",
+            "Ekip oluşturma ve eğitim",
+            "Haftalık toplantılar"
+          ]
+        }
+      }
+    }
+  },
+
+  "myPackages": "Paketlerimiz",
+  "packages": {
+    "starter": {
+      "packageName": "Başlangıç Paketi",
+      "title": "Temel Dijital Başlangıç",
+      "content": {
+        "content1": "Web: Kurumsal site, Landing page",
+        "content2": "UI/UX: Web tasarım",
+        "content3": "Marka: Logo, Kimlik",
+        "content4": "SEO: Temel SEO, Site hız testi"
+      }
+    },
+    "pro": {
+      "packageName": "Pro Paketi",
+      "title": "Büyüyen İşletmeler İçin",
+      "content": {
+        "content1": "Web: Kurumsal site, Landing page, E-ticaret, Admin panel",
+        "content2": "Mobil: React Native / Flutter uygulamalar",
+        "content3": "UI/UX: Web & Mobil tasarım, UX araştırması, Prototip",
+        "content4": "Marka: Logo, Kimlik, Renk & Tipografi",
+        "content5": "SEO: Teknik SEO, Performans, Core Web Vitals",
+        "content6": "Danışmanlık: Dijital strateji, MVP planlama, Pazar analizi"
+      }
+    },
+    "enterprise": {
+      "packageName": "Kurumsal Paket",
+      "title": "Kurumsal & Kapsamlı Çözümler",
+      "content": {
+        "content1": "Web: Tüm hizmetler + Özel yazılım + API entegrasyonu",
+        "content2": "Mobil: Uygulamalar, iOS/Android yayın, Push bildirimler",
+        "content3": "UI/UX: Full Web & Mobil, Prototip, Design system",
+        "content4": "Marka: Full branding, Lansman paketleri, Sosyal medya şablonları",
+        "content5": "SEO: Tüm SEO, Core Web Vitals, İçerik optimizasyonu",
+        "content6": "Danışmanlık: Strateji, MVP planlama, Pazar & Teknoloji analizi"
+      }
+    }
+  },
+
+  "hero": {
+    "spider": "Bir örümcek gibi...",
+    "slogan1": "Ağın inceliği, tasarımın estetiği.",
+    "slogan2": "Hassasiyetle inşa edilen dijital ağlar.",
+    "letsTalk": "Hadi Konuşalım",
+    "paragraph": "Markaları hedef kitleleriyle; strateji, araştırma, modern teknoloji ve amacı olan tasarım aracılığıyla buluşturuyoruz.",
+    "readMore": "Keşfetmeye devam edin",
+    "bigWords": {
+      "line1": "Tasarla.",
+      "line2": "Geliştir.",
+      "line3": "Sun."
+    }
+  },
+
+  "cta": {
+    "mainTitle": "Hadi Projeni Birlikte Şekillendirelim",
+    "subtitle": "İster net bir fikirle gel, ister kararsız ol — senin için doğru çözüme birlikte ulaşabiliriz.",
+    "options": {
+      "consult": {
+        "title": "Hangi Paket Bana Uygun?",
+        "description": "Kararsızsan sorun değil! Kısa bir yönlendirmeyle en iyi seçeneği belirleyelim.",
+        "button": "Danışmanlık Al"
+      },
+      "offer": {
+        "title": "Doğrudan Teklif Almak İstiyorum",
+        "description": "Projen belli mi? Detaylarını ilet, sana özel bir teklif hazırlayayım.",
+        "button": "Teklif Al"
+      }
+    }
+  },
+
+  "faqTitle": "SSS",
+  "faq": [
+    {
+      "question": "Hangi paket bana uygun?",
+      "answer": "Kararsızsan endişelenme! İhtiyacını analiz edip sana en uygun paketi birlikte belirleyebiliriz."
+    },
+    {
+      "question": "Revizyon süreci nasıl işliyor?",
+      "answer": "Tüm paketlerimiz revizyon hakkı içerir. Detaylar pakete göre değişebilir, her adımı birlikte planlarız."
+    },
+    {
+      "question": "Teslim süresi ne kadar?",
+      "answer": "Projenin kapsamına göre değişir. Ortalama süre 2-6 haftadır, paket açıklamalarında detaylı bilgi bulabilirsin."
+    },
+    {
+      "question": "Ödeme nasıl yapılıyor?",
+      "answer": "Ödemeler banka havalesi veya online ödeme yöntemleri ile güvenli şekilde yapılır. Teklif aldıktan sonra detayları paylaşırız."
+    },
+    {
+      "question": "Süreç nasıl ilerliyor?",
+      "answer": "İlk olarak ihtiyacını netleştiriyoruz, ardından paket ve teklif seçimi yapılıyor. Onay sonrası proje süreci başlar ve adım adım ilerleriz."
+    }
+  ],
+
+  "contact": {
+    "heading": "Güzel şeyler, ‘merhaba’ dediğinde başlar.",
+    "interested": "Şu konuya ilgim var",
+    "firstname": "Ad",
+    "lastname": "Soyad",
+    "email": "E-posta",
+    "message": "Mesaj",
+    "budget": "Bütçe",
+    "attachments": "Ekler",
+    "send": "Gönder",
+    "info": "Paketlerimiz ve fiyatlar hakkında bilgi almak için formu doldurun. İhtiyacınızı ve bütçenizi belirtmeniz yeterli."
+  },
+
+  "about": {
+    "title": "Hakkımızda",
+    "section1": {
+      "title": "Misyon ve Vizyon: İstanbul'dan Yükselen Dijital Deneyim Ajansı",
+      "main_text": "Ozzenc olarak biz, İstanbul merkezli dinamik bir Dijital Deneyim Ajansı ve teknoloji stüdyosuyuz. Geleneksel ajans sınırlarını aşarak, markaları yükselten, çevrimiçi varlığı güçlendiren ve sorunsuz kullanıcı deneyimleri yaratan güçlü ve rafine dijital çözümler üretiyoruz.",
+      "mission": "Misyonumuz, markaları hedef kitleleriyle; strateji, araştırma, modern teknoloji ve amacı olan tasarım aracılığıyla buluşturmaktır.",
+      "vision": "Vizyonumuz, hızlı değişen dijital dünyada işletmelerin güvenle ilerlemesini sağlayan, geleceğe hazır dijital deneyimler sunmaktır."
+    },
+    "section2": {
+      "title": "Değer Teklifi ve Farkımız: Titiz Zanaatkârlık ve Gerçek Sonuçlar",
+      "intro": "Odak noktamız, sadece güzel görünen ürünler yaratmak değil, aynı zamanda metrikleri harekete geçiren ve uzun vadede ölçeklenebilir deneyimler inşa etmektir. Bizi rakiplerimizden ayıran dört temel değerimiz, sunduğumuz her hizmetin temelini oluşturur:",
+      "values": {
+        "value1": {
+          "title": "İnsan Odaklı Yaklaşım",
+          "description": "Her projeye, ürünü kullanacak kişileri derinlemesine anlayarak başlarız. Kullanıcı hedefleri, acı noktaları ve gerçek davranışları temel alarak net ve uygulanabilir içgörüler elde ederiz."
+        },
+        "value2": {
+          "title": "Titiz Zanaatkârlık",
+          "description": "Tasarım, geliştirme ve strateji; yapı, akış ve UI tutarlılığına gösterilen titiz bir özenle birleşir. Ürünlerimizde UX netliği ve teknik kalite her zaman önceliklidir."
+        },
+        "value3": {
+          "title": "İnovasyon ve Teknoloji",
+          "description": "Geleceğe dönük, ölçeklenebilir çözümler yaratmak için modern frameworkler, yapay zeka ve otomasyon gibi ileri teknolojilerden yararlanıyor; geleceğe hazır mimari üzerinde çalışıyoruz."
+        },
+        "value4": {
+          "title": "Gerçek Sonuçlar",
+          "description": "Metrikler bizim için her şeydir. Odak noktamız daima daha yüksek dönüşüm, daha iyi etkileşim, daha hızlı yükleme süreleri ve uzun vadeli ölçeklenebilirlik sağlamaktır."
+        }
+      }
+    },
+    "section3": {
+      "title": "Ekip ve Kültür: Kapsamlı Uzmanlık, Tek Bir Hedef",
+      "main_text": "Ozzenc ekibi, her biri kendi alanında uzmanlaşmış, tam kapsamlı hizmetler sunan profesyonellerden oluşur. Bizler, dijital ağları hassasiyetle inşa eden bir ekibiz.",
+      "expertise_intro": "Sunduğumuz kapsamlı hizmetler ve uzmanlık alanlarımız:",
+      "expertise": [
+        "Uçtan Uca Geliştirme: Kurumsal web sitelerinden, e-ticaret sitelerine ve özel yazılımlara (CRM, SaaS) kadar, ihtiyacınız olan her türlü Web Geliştirme çözümünü sunuyoruz.",
+        "UI/UX ve Tasarım Sistemleri: Web ve mobil UI/UX tasarımı, UX araştırması ve Design System (component kütüphanesi) oluşturma konusundaki titizliğimiz, kullanılabilirlik ve marka kimliğini birleştirir.",
+        "Stratejik Ortaklık: Danışmanlık ve Strateji hizmetlerimizle (MVP planlama, pazar analizi ve teknoloji seçimi danışmanlığı), sadece bir hizmet sağlayıcı değil, dijital dönüşümünüzde stratejik bir ortağınız olmayı hedefliyoruz."
+      ],
+      "culture_philosophy": "Kültürümüz, Tasarla. Geliştir. Sun. felsefesi üzerine kuruludur. Çevik, şeffaf ve sonuç odaklı bir yaklaşımla, başarınızı kendi başarımız olarak görüyoruz."
+    },
+    "section4": {
+      "title": "Harekete Geçirme: Birlikte Büyümeye Hazırız.",
+      "intro": "Başarı hikayenizdeki rolümüzü üstlenmeye hazırız. İster net bir fikirle gelin, ister kararsız olun — sizin için doğru çözüme birlikte ulaşabiliriz.",
+      "outro": "İhtiyaçlarınızı analiz edelim ve Paketlerimiz arasından size en uygun olanı belirleyerek dijital yolculuğunuza başlayalım.",
+      "cta": {
+        "consult_button": "Danışmanlık Al",
+        "offer_button": "Teklif Al"
+      }
+    }
+  },
+
+  "home": {
+    "hero": {
+      "bigWords": ["Yaratıcılık", "ve", "Teknoloji", "Burada."],
+      "tagline": "İşletmeleri geleceğe taşıyan, markayı güçlendiren ve ölçülebilir sonuçlar sağlayan dijital deneyimler tasarlıyor ve geliştiriyoruz.",
+      "cta_primary": "Projeye Başlayın",
+      "cta_secondary": "Referanslarımızı Görün"
+    },
+    "caseStudies": {
+      "title": "Başarı Hikayelerimiz",
+      "subtitle": "Yaratıcı çözümlerimiz ve stratejik ortaklıklarımızla müşterilerimize kattığımız değeri keşfedin.",
+      "list": [
+        {
+          "client": "AkıllıOfis",
+          "project": "Kurumsal SaaS Platformu",
+          "focus": "UX/UI, Custom Dev",
+          "result": "Kullanıcı etkileşiminde %45 artış."
+        },
+        {
+          "client": "DoğaLezzetleri",
+          "project": "E-Ticaret Dönüşümü",
+          "focus": "UI Design, Performans",
+          "result": "Mobil dönüşüm oranında %30 büyüme."
+        },
+        {
+          "client": "EğitimPlus",
+          "project": "Eğitim Portalı Yenileme",
+          "focus": "Web Geliştirme, API Entegrasyonu",
+          "result": "Sayfa yükleme süresinde %50 azalma."
+        }
+      ]
+    },
+    "philosophy": {
+      "title": "Üretim Felsefemiz",
+      "subtitle": "Her projenin başarısını garantileyen, basit ve şeffaf üç aşamalı sürecimiz.",
+      "step1": {
+        "title": "Keşfet & Anla",
+        "detail": "İhtiyaçlarınızı, hedeflerinizi ve kullanıcılarınızı derinlemesine analiz ederiz. Başarıyı tanımlayan temel stratejiyi belirleriz."
+      },
+      "step2": {
+        "title": "Tasarla & Geliştir",
+        "detail": "Kullanıcı deneyimi (UX) odaklı tasarımları, en yeni teknolojilerle piksel mükemmelliğinde kodlarız. Şeffaf ve çevik ilerleriz."
+      },
+      "step3": {
+        "title": "Sun & Büyüt",
+        "detail": "Projenizi canlıya alırız. Performansını izler, geri bildirimleri toplar ve dijital varlığınızı sürekli olarak iyileştirmeye devam ederiz."
+      }
+    },
+    "expertise": {
+      "title": "Uzmanlık Alanlarımız",
+      "subtitle": "Markanızın dijital dünyada öne çıkması için sunduğumuz çözümlerin temel taşları.",
+      "area1": {
+        "name": "UX/UI Tasarım",
+        "description": "Kullanıcı deneyimi (UX) araştırmasından, estetik ve işlevsel arayüz (UI) tasarımına kadar markanızın dijital kimliğini oluştururuz."
+      },
+      "area2": {
+        "name": "Web Geliştirme",
+        "description": "React, Next.js gibi modern teknolojilerle hızlı, ölçeklenebilir ve SEO dostu uçtan uca web çözümleri geliştiriyoruz."
+      },
+      "area3": {
+        "name": "Stratejik Danışmanlık",
+        "description": "MVP planlama, teknoloji seçimi ve dijital strateji oluşturma konularında, yatırımınızın en iyi geri dönüşü almasını sağlarız."
+      }
+    },
+    "cta_section": {
+      "heading": "Hadi, Birlikte Başlayalım.",
+      "button": "Teklif Almak İçin Tıklayın"
+    }
+  }
+}

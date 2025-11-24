@@ -1,0 +1,255 @@
+/* ================================
+   ABOUT CONTAINER
+================================ */
+.about-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 80px 5% 50px 5%; /* Yukarıdan ve kenarlardan boşluk */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 60px; /* Bölümler arası boşluk */
+  box-sizing: border-box;
+}
+
+.about-main-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--text-color-primary);
+  text-align: center;
+  margin-bottom: 40px;
+  /* ACCENT COLOR: helper-color-primary (#d97757) olarak güncellendi */
+  border-bottom: 4px solid var(--helper-color-primary);
+  padding-bottom: 10px;
+}
+
+/* ================================
+   GENEL BÖLÜM STİLLERİ
+================================ */
+.about-section {
+  width: 100%;
+  max-width: 1200px;
+  padding: 40px;
+  border-radius: 15px;
+  /* Arka plan renkleri global.css'den çekildi */
+  background-color: var(--bg-color-secondary);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 600;
+  /* ACCENT COLOR */
+  color: var(--helper-color-primary);
+  margin-bottom: 25px;
+  /* ACCENT COLOR */
+  border-left: 5px solid var(--helper-color-primary);
+  padding-left: 15px;
+}
+
+.main-text,
+.intro-text,
+.culture-philosophy {
+  font-size: 1.1rem;
+  line-height: 2;
+  color: var(--color-secondary); /* Daha yumuşak bir gri tonu kullanıldı */
+  margin-bottom: 20px;
+}
+
+/* ================================
+   BÖLÜM 1: MİSYON VE VİZYON
+================================ */
+.vision-boxes {
+  display: flex;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.vision-boxes .box-item {
+  flex: 1;
+  padding: 20px;
+  /* BORDER COLOR: color-quaternary (#cccccc) olarak güncellendi */
+  border: 1px solid var(--color-quaternary);
+  border-radius: 10px;
+  background-color: var(--bg-color-primary);
+}
+
+.vision-boxes .box-item strong {
+  /* ACCENT COLOR */
+  color: var(--helper-color-primary);
+  display: block;
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+}
+
+/* ================================
+   BÖLÜM 2: DEĞERLER (GRID)
+================================ */
+.values-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.value-card {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--bg-color-primary);
+  /* BORDER COLOR */
+  border: 1px solid var(--color-quaternary);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+  font-size: 1.3rem;
+  color: var(--text-color-primary);
+  margin-bottom: 10px;
+}
+
+.card-description {
+  font-size: 1rem;
+  color: var(--color-secondary);
+}
+
+/* ================================
+   BÖLÜM 3: EKİP VE KÜLTÜR
+================================ */
+.expertise-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.expertise-intro {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--text-color-primary);
+  margin-bottom: 15px;
+}
+
+.expertise-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.expertise-list li {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--color-secondary);
+  position: relative;
+  padding-left: 25px;
+}
+
+.expertise-list li::before {
+  content: "✓";
+  /* ACCENT COLOR */
+  color: var(--helper-color-primary);
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+/* ================================
+   BÖLÜM 4: CTA
+================================ */
+.cta-section {
+  text-align: center;
+  /* ACCENT COLOR */
+  background-color: var(--helper-color-primary);
+  color: var(--bg-color-primary);
+  padding: 50px;
+}
+
+.cta-section .cta-title {
+  color: var(--bg-color-primary);
+  margin-bottom: 15px;
+}
+
+.cta-section .cta-intro,
+.cta-section .cta-outro {
+  color: var(--bg-color-primary);
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.cta-button {
+  padding: 15px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+/* Birincil Buton (Ters renkli, bg-color-primary üzerine accent) */
+.cta-button.primary {
+  background-color: var(--bg-color-primary);
+  color: var(--helper-color-primary);
+  border: 2px solid var(--bg-color-primary);
+}
+
+/* İkincil Buton (Şeffaf, accent üzerine bg-color-primary text) */
+.cta-button.secondary {
+  background-color: transparent;
+  color: var(--bg-color-primary);
+  border: 2px solid var(--bg-color-primary);
+}
+
+.cta-button.secondary:hover {
+  background-color: var(--bg-color-primary);
+  /* Hover'da accent rengini almalı */
+  color: var(--helper-color-primary);
+}
+
+/* ================================
+   DUYARLILIK (RESPONSIVE)
+================================ */
+@media (max-width: 768px) {
+  .about-main-title {
+    font-size: 2.5rem;
+  }
+
+  .about-section {
+    padding: 30px 20px;
+  }
+
+  .section-title {
+    font-size: 1.7rem;
+  }
+
+  .vision-boxes {
+    flex-direction: column;
+  }
+
+  .values-grid {
+    grid-template-columns: 1fr; /* Mobil görünümde tek sütun */
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+  }
+
+  .cta-button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-container {
+    padding: 60px 3% 30px 3%;
+    gap: 40px;
+  }
+}
